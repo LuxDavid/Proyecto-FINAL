@@ -1,0 +1,30 @@
+#pie__pagina{
+display: grid;
+grid-template-columns: 1fr 25%;
+align-items: center;
+justify-content: start;
+height: 120px;
+border-top: 1px solid rgba(225, 225, 226, 0.8) ;
+background-color: orangered;
+
+.bibliografia{
+text-align: left;
+margin-right: 20px;
+
+.bibliografia__info{font-family: Helvetica;
+font-style: italic;
+font-weight: 900px;
+font-size: 20px;
+padding: 10px;
+margin-left: 20px;
+color: black;
+text-shadow: 1px 1px 0px #ccc;
+text-transform: uppercase;
+text-align: left;
+margin-right: 20px;
+
+}
+
+}
+
+}
