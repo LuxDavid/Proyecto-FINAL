@@ -35,12 +35,16 @@ border-bottom:1px solid rgba(225, 225, 226, 0.8) ;
 background-color: black;
 font-family: 'Bebas Neue';
 
+@mixin estiloLetra($style, $weight, $size) {
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+}
+
 .cabecera__header{
 
 font-family: Helvetica;
-font-style: italic;
-font-weight: 900px;
-font-size: 35px;
+@include estiloLetra(italic,900px,35px);
 padding: 15px;
 margin-left: 20px;
 color: #eee;
@@ -50,9 +54,7 @@ transition: all 300ms;
 
 .header__titulo{
 font-family: Helvetica;
-font-style: italic;
-font-weight: 900px;
-font-size: 35px;
+@include estiloLetra(italic,900px,35px);
 transition: all 300ms;
 display: block;
     
@@ -79,23 +81,6 @@ align-items: center;
 justify-content: center;
 }
 
-/*INICIO MAPA*/
-$paginas:(
-contacto=rgb(216, 47, 47),
-ubicacion=rgb(182, 20, 20),
-multimedia=rgba(126, 19, 19, 0.459),
-blog=rgb(184, 72, 72)
-
-);
-
-@each $page, $color in $paginas {
-    
-}
-
-
-
-/*FIN DEL MAPA*/
-
 .menu__link{
 
 color: white;
@@ -112,15 +97,41 @@ border-radius: 1250px;
 }
 
 
-&:hover{
-color: red;
-transform: scale(1.2,1.2); 
 }
 
+$redes: ( /*Declaramos nuestro mapa*/
+contacto: rgb(224, 47, 47),
+ubicacion:  rgb(148, 16, 16),
+multimedia: rgb(141, 16, 16),
+blog: rgb(180, 6, 6)
+);
+
+.menu__link--contacto:hover{
+color:map-get($redes , contacto );
+@extend .menu__link--logo;
 }
 
+.menu__link--ubicacion:hover{
+color:map-get($redes , ubicacion );
+@extend .menu__link--logo;
+}
 
+.menu__link--multimedia:hover{
+color:map-get($redes , multimedia );
+@extend .menu__link--logo;
+}
+
+.menu__link--blog:hover{
+color:map-get($redes , blog );
+@extend .menu__link--logo;
+}
+
+.menu__link--logo:hover{
+transform: scale(1.2,1.2);
 }
     
+
+}
+
 }
 

@@ -287,6 +287,13 @@ body {
         width: 45px;
         height: 45px;
         border-radius: 1250px; }
-      #header #menu .menu__link:hover {
-        color: red;
-        transform: scale(1.2, 1.2); }
+    #header #menu .menu__link--contacto:hover {
+      color: #e02f2f; }
+    #header #menu .menu__link--ubicacion:hover {
+      color: #941010; }
+    #header #menu .menu__link--multimedia:hover {
+      color: #8d1010; }
+    #header #menu .menu__link--blog:hover {
+      color: #b40606; }
+    #header #menu .menu__link--logo:hover, #header #menu .menu__link--contacto:hover, #header #menu .menu__link--ubicacion:hover, #header #menu .menu__link--multimedia:hover, #header #menu .menu__link--blog:hover {
+      transform: scale(1.2, 1.2); }
