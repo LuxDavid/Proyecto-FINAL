@@ -13,5 +13,14 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuxDavid/APLICANDO-SASS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuxDavid/APLICANDO-SASS/issues"
+  },
+  "homepage": "https://github.com/LuxDavid/APLICANDO-SASS#readme"
 }

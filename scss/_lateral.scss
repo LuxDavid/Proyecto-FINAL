@@ -178,6 +178,11 @@ font-family: 'Bebas Neue';
 height: 5vh;
 width: 3rem;
 border-radius:900px;
+
+&:hover{
+transform: scale(1.2,1.2);
+}
+
 }
 
 .image__social--facebook{
