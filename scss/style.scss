@@ -81,6 +81,23 @@ align-items: center;
 justify-content: center;
 }
 
+/*INICIO MAPA*/
+$paginas:(
+contacto=rgb(216, 47, 47),
+ubicacion=rgb(182, 20, 20),
+multimedia=rgba(126, 19, 19, 0.459),
+blog=rgb(184, 72, 72)
+
+);
+
+@each $page, $color in $paginas {
+    
+}
+
+
+
+/*FIN DEL MAPA*/
+
 .menu__link{
 
 color: white;
@@ -96,9 +113,10 @@ height: 45px;
 border-radius: 1250px;
 }
 
+
 &:hover{
 color: red;
-transform: scale(1.2,1.2);
+transform: scale(1.2,1.2); 
 }
 
 }
