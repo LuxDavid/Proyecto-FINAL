@@ -1,6 +1,6 @@
 $borde-g:#393d3f;
 $sombra-box:rgba(0,0,0,0.3);
-
+$color-combinable:#ccc;
 
 /*---------------------------------------BARRA LATERAL----------------------------*/
 
@@ -13,14 +13,14 @@ $sombra-box:rgba(0,0,0,0.3);
   height: 125vh;
   flex-flow: column wrap;
   font-family:Arial, Helvetica, sans-serif;
-  background-color: #eee;
+  background-color: $color-combinable;
   margin-right: 2rem;
 
 .form__title{
 
  width: auto;
  height:3rem;
- background-color: #ccc;
+ background-color: $color-combinable;
  box-shadow: 0px 1px 0px #393d3f,1px 2px 0px $borde-g,2px 3px 0px $borde-g, 3px 4px 0px $borde-g;
  font-size: 25px;
  font-family: 'Bebas Neue';
@@ -45,9 +45,9 @@ h3{
  height: 30px;
  margin: 10px auto;
  background-color: white;
- border:1px solid #ccc;
+ border:1px solid $color-combinable;
  border-radius: 5px;	
- box-shadow: 1px 1px 4px #ccc inset;
+ box-shadow: 1px 1px 4px $color-combinable inset;
 
 }  
 
@@ -59,7 +59,7 @@ input[type="text"]{
  padding-left: 5px;
  border-radius: 5px;
  background-color: transparent;
- color: #ccc; 	
+ color: $color-combinable; 	
  transition: all 300ms;
 
 &:focus{
@@ -77,7 +77,7 @@ input[type="submit"]{
  font-size: 16px;
  background-color: transparent;
  border:none; 	
- border-left: 1px solid #ccc;
+ border-left: 1px solid $color-combinable;
  color:#555;
  padding-left:6px;
 
@@ -130,8 +130,8 @@ input[type="password"]{
  width: 82%;
  height: 30px;
  margin-top: 20px;
- border:1px solid #ccc;
- box-shadow: 1px 1px 1px #ccc inset;
+ border:1px solid $color-combinable;
+ box-shadow: 1px 1px 1px $color-combinable inset;
  border-radius: 5px;
  padding-left: 30px;
  color:gray;
@@ -185,7 +185,7 @@ a{
  color:black;
  text-decoration: none;	
  font-size: 15px;
- text-shadow: 2px 2px 3px #ccc;
+ text-shadow: 2px 2px 3px $color-combinable;
  margin-left: 20px;
  margin-top: 20px;
  margin-bottom: 20px;
