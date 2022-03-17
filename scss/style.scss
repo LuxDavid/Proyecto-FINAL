@@ -2,134 +2,138 @@
 @import "_lateral";
 @import "_footer";
 
+/*---------------------------------------ESTILOS GENERALES----------------------------*/
+
 *{
-margin: 0;
-padding: 0;
+ margin: 0;
+ padding: 0;
 }
 
 
 body{
-background-image: url("../images/carne4.jpg");
-background-attachment: fixed;
-background-size: 100%;
+ background-color: #444;
+ background-attachment: fixed;
+ background-size: 100%;
 }
     
 #contenedor{
-width: 90%;
-height: auto;
-margin: 0px auto;
-border: 1px solid rgba(225, 225, 226, 0.8);
-box-shadow: 0px 0px 10px #ccc;
-margin-top:40px;
-margin-bottom: 40px;
-min-height: 600px;
+ width: 90%;
+ height: auto;
+ margin: 0px auto;
+ border: 1px solid rgba(225, 225, 226, 0.8);
+ box-shadow: 0px 0px 10px #ccc;
+ margin-top:40px;
+ margin-bottom: 40px;
+ min-height: 600px;
 }
 
+
+/*---------------------------------------CABECERA----------------------------*/
 #header{
-display: grid;
-grid-template-columns: 65% 30%;
-align-items: center;
-width: 100%;
-height: 12vh;
-border-bottom:1px solid rgba(225, 225, 226, 0.8) ;
-background-color: black;
-font-family: 'Bebas Neue';
+ display: grid;
+ grid-template-columns: 65% 30%;
+ align-items: center;
+ width: 100%;
+ height: 12vh;
+ border-bottom:1px solid rgba(225, 225, 226, 0.8) ;
+ background-color: black;
+ font-family: 'Bebas Neue';
 
 @mixin estiloLetra($style, $weight, $size) {
-    font-style: $style;
-    font-weight: $weight;
-    font-size: $size;
+ font-style: $style;
+ font-weight: $weight;
+ font-size: $size;
 }
 
 .cabecera__header{
 
-font-family: Helvetica;
-@include estiloLetra(italic,900px,35px);
-padding: 15px;
-margin-left: 20px;
-color: #eee;
-text-shadow: 1px 1px 0px #ccc;
-text-transform: uppercase;
-transition: all 300ms;
+ font-family: Helvetica;
+ @include estiloLetra(italic,900px,35px);
+ padding: 15px;
+ margin-left: 20px;
+ color: #eee;
+ text-shadow: 1px 1px 0px #ccc;
+ text-transform: uppercase;
+ transition: all 300ms;
 
 .header__titulo{
-font-family: Helvetica;
-@include estiloLetra(italic,900px,35px);
-transition: all 300ms;
-display: block;
+ font-family: Helvetica;
+ @include estiloLetra(italic,900px,35px);
+ transition: all 300ms;
+ display: block;
     
 &:hover{
-transition: all 300ms;
-color: orangered;
+ transition: all 300ms;
+ color: orangered;
 }
     
 }
 
 }
 
+/*---------------------------------------BARRA DE NAVEGACION----------------------------*/
+
 #menu{
-text-align:center;
-width: 100%;
-height: 100%;
+ text-align:center;
+ width: 100%;
+ height: 100%;
 
 .elementos__menu{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-list-style: none;
-height: 100%;
-align-items: center;
-justify-content: center;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ list-style: none;
+ height: 100%;
+ align-items: center;
+ justify-content: center;
 }
 
 .menu__link{
-
-color: white;
-display: block;
-text-decoration: none;
-transition: all 200ms;
-font-size: 16px;
-padding: 10px;
+ color: white;
+ display: block;
+ text-decoration: none;
+ transition: all 200ms;
+ font-size: 16px;
+ padding: 10px;
 
 img{
-width: 45px;
-height: 45px;
-border-radius: 1250px;
+ width: 45px;
+ height: 45px;
+ border-radius: 1250px;
 }
 
-
 }
+
 
 $redes: ( /*Declaramos nuestro mapa*/
-contacto: rgb(224, 47, 47),
-ubicacion:  rgb(148, 16, 16),
-multimedia: rgb(141, 16, 16),
-blog: rgb(180, 6, 6)
+ contacto: rgb(224, 47, 47),
+ ubicacion:  rgb(148, 16, 16),
+ multimedia: rgb(141, 16, 16),
+ blog: rgb(180, 6, 6)
 );
 
 .menu__link--contacto:hover{
-color:map-get($redes , contacto );
-@extend .menu__link--logo;
+ color:map-get($redes , contacto );
+ @extend .menu__link--logo;
 }
 
 .menu__link--ubicacion:hover{
-color:map-get($redes , ubicacion );
-@extend .menu__link--logo;
+ color:map-get($redes , ubicacion );
+ @extend .menu__link--logo;
 }
 
 .menu__link--multimedia:hover{
-color:map-get($redes , multimedia );
-@extend .menu__link--logo;
+ color:map-get($redes , multimedia );
+ @extend .menu__link--logo;
 }
 
 .menu__link--blog:hover{
-color:map-get($redes , blog );
-@extend .menu__link--logo;
+ color:map-get($redes , blog );
+ @extend .menu__link--logo;
 }
 
 .menu__link--logo:hover{
-transform: scale(1.2,1.2);
-}
-    
+ transform: scale(1.2,1.2);
+}   
 
 }
 
