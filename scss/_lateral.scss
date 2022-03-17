@@ -5,6 +5,7 @@ $sombra-box:rgba(0,0,0,0.3);
 /*---------------------------------------BARRA LATERAL----------------------------*/
 
 #lateral {
+
   display: flex;
   flex-basis: 25%;
   margin:20px;
@@ -16,6 +17,7 @@ $sombra-box:rgba(0,0,0,0.3);
   margin-right: 2rem;
 
 .form__title{
+
  width: auto;
  height:3rem;
  background-color: #ccc;
@@ -30,12 +32,15 @@ $sombra-box:rgba(0,0,0,0.3);
  text-align: center;
 
 h3{
+
  margin-top: 10px;
+
 }
 
 }
 
 .busqueda{
+
  width:98%;
  height: 30px;
  margin: 10px auto;
@@ -47,6 +52,7 @@ h3{
 }  
 
 input[type="text"]{
+
  width:98%;
  height:30px;
  border:none;
@@ -57,12 +63,15 @@ input[type="text"]{
  transition: all 300ms;
 
 &:focus{
+
  color: #555; 	
+
 }
 
 }
 
 input[type="submit"]{
+
  height: 30px;
  cursor:pointer;
  font-size: 16px;
@@ -71,9 +80,11 @@ input[type="submit"]{
  border-left: 1px solid #ccc;
  color:#555;
  padding-left:6px;
+
 }
 
 .aside-box{
+
  display:flex;
  flex-direction: column;
  width:85%;
@@ -84,12 +95,14 @@ input[type="submit"]{
  background:#eee; 
  border:1px solid black; 
  box-shadow:0px 0px 1px $sombra-box, 0px 3px 7px $sombra-box,0px 1px white inset,0px -3px 2px $sombra-box inset ;	
+
 }
 
 
 #login{
 
 a{
+
  display: flex;
  flex-flow: column wrap;	
  align-items: center;
@@ -101,6 +114,7 @@ a{
  width: 84%;
 
 &:hover{
+
  text-decoration: underline;
  color: red;	
 
@@ -110,6 +124,7 @@ a{
 
 input[type="email"],
 input[type="password"]{
+
  display: flex;
  margin: 0px auto;
  width: 82%;
@@ -122,6 +137,7 @@ input[type="password"]{
  color:gray;
 
 &:focus{
+  
  color: #555;
  box-shadow: 1px 1px 1px gray inset;	
     

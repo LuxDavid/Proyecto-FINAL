@@ -1,6 +1,7 @@
 /*--------------------------PUNTOS DE CORTE INDEX------------------------------------*/
 
 @media(max-width:1822px){
+
     #header{
     grid-template-columns: 100%;
     padding-bottom: 15px;
@@ -11,24 +12,24 @@
     text-align: center;
     }
             
-    }
+}
             
     
-    @media(max-width:1430px){
+@media(max-width:1430px){
+
     .platillo{
     flex-grow: 1;
     flex-basis: 16rem;
-          
     }
     
     @keyframes tamaño {
-        0%{flex-basis: 16rem;}50%{flex-basis: 17rem;}100%{ flex-basis: 16rem; border:3px solid yellow;}
-        }
-    
-    
+    0%{flex-basis: 16rem;}50%{flex-basis: 17rem;}100%{ flex-basis: 16rem; border:3px solid yellow;}
     }
     
-    @media(max-width:1420px){
+    
+}
+    
+@media(max-width:1420px){
         
     #pie__pagina{
     grid-template-columns: 1fr 35%;
@@ -43,17 +44,19 @@
     grid-template-rows: 200px 200px;
     }
         
-    }
+}
         
     
-    @media(max-width:1257px){
+@media(max-width:1257px){
+
     .platillo h2{
     font-size: 25px;
     }
     
-    }
+}
     
-    @media(max-width:1175px){
+@media(max-width:1175px){
+
     .contenido_principal{
     flex-basis: 60%;
     }
@@ -63,8 +66,8 @@
     }
         
     #principal .platillo .images__platillos {
-        width: 95%;
-      }
+    width: 95%;
+    }
         
     .platillo{
     margin-bottom: 47px;
@@ -74,9 +77,9 @@
     0%{height: 35vh;}50%{height:36vh}100%{ height: 35vh; border:3px solid yellow;}
     }
         
-    }
+}
     
-    @media(max-width:1000px){
+@media(max-width:1000px){
     
     #principal{
     flex-direction: column;
@@ -102,9 +105,10 @@
     width: 98%;
     }
     
-    }
+}
     
-    @media(max-width:915px){
+@media(max-width:915px){
+
     #menu .menu__item {
     font-size: 12px;
     }
@@ -113,9 +117,10 @@
     width: 80%;
     }
     
-    }
+}
     
-    @media(max-width:764px){
+@media(max-width:764px){
+
     #pie__pagina {
     grid-template-columns: 1fr;
     }
@@ -135,14 +140,15 @@
     width: 75%;
     }
 
-    }
+}
 
     @media(max-width:722px){
+
         #principal .platillo .images__platillos {
         width: 97%;
         }
 
-    }
+}
     
     @media(max-width:546px){
     
@@ -158,6 +164,6 @@
     font-size: 14px;
     }
     
-    }
+}
     
     

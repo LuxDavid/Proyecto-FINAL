@@ -1,6 +1,8 @@
 
 /*---------------------------------------FOOTER----------------------------*/
+
 #pie__pagina{
+
  display: grid;
  grid-template-columns: 1fr 25%;
  align-items: center;
@@ -10,10 +12,13 @@
  background-color: orangered;
 
 .bibliografia{
+
  text-align: left;
  margin-right: 20px;
 
-.bibliografia__info{font-family: Helvetica;
+.bibliografia__info{
+
+ font-family: Helvetica;
  font-style: italic;
  font-weight: 900px;
  font-size: 20px;
