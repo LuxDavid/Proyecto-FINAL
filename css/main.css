@@ -219,6 +219,100 @@
       text-align: left;
       margin-right: 20px; }
 
+.carrusel-imagenes img {
+  height: 70vh; }
+
+.contacto-forms {
+  background-color: #eee; }
+
+.form-label {
+  color: orangered;
+  padding-left: 40%; }
+
+.boton-animation:hover {
+  animation-name: envio;
+  animation-duration: 2s;
+  animation-timing-function: linear; }
+
+@keyframes envio {
+  0% {
+    border-radius: 15px; }
+  50% {
+    background-color: black; }
+  75% {
+    border-radius: 25px;
+    background-color: red; }
+  100% {
+    background-color: red; } }
+
+/*--------------------------------------VIDEOS Y FOTOS--------------------------------*/
+#multimedia {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  grid-gap: 10px;
+  margin-top: 1rem;
+  align-items: start;
+  justify-content: center; }
+
+.ilustracion {
+  margin-bottom: 25px;
+  margin-right: 20px; }
+  .ilustracion img {
+    width: 100%;
+    height: 197px; }
+  .ilustracion .video {
+    width: 100%;
+    height: 197px; }
+
+/*-------------------------------------------BLOG------------------------------------*/
+#restaurant {
+  width: 100%;
+  height: 800px;
+  background-color: azure;
+  margin: 20px; }
+
+.restaurant__nombre {
+  font-size: 30px;
+  text-align: center; }
+
+.restaurant__local img {
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  padding-left: 35%; }
+
+.restaurant__historia {
+  height: 400px;
+  width: 100%;
+  font-family: Verdana,Tahoma, sans-serif;
+  text-indent: 5px; }
+
+/*-------------------------------------------UBICACION------------------------------------*/
+.ubicacion {
+  width: 100%;
+  height: 600px;
+  display: block;
+  margin-left: 8%; }
+  .ubicacion iframe {
+    width: 40%;
+    height: 98%;
+    display: inline-block;
+    border-radius: 15px; }
+  .ubicacion .establecimiento {
+    width: 40%;
+    height: 98%;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 25px; }
+
+.info__local p {
+  color: #444;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  font-size: 40px;
+  font-family: Impact,'Arial Narrow Bold', sans-serif; }
+
 /*---------------------------------------ESTILOS GENERALES----------------------------*/
 * {
   margin: 0;
