@@ -1,7 +1,7 @@
 {
-  "name": "aplicando-sass",
+  "name": "proyecto-sass",
   "version": "1.0.0",
-  "description": "Aplicando sass al proyecto",
+  "description": "Este proyecto se basa en la presentacion sobre un restaurant, tanto de su historia como se sus productos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
