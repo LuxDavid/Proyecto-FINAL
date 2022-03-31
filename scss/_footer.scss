@@ -4,12 +4,12 @@
 #pie__pagina{
 
  display: grid;
- grid-template-columns: 1fr 25%;
+ grid-template-columns: 30% 40% 25%;
  align-items: center;
  justify-content: start;
  height: 120px;
  border-top: 1px solid rgba(225, 225, 226, 0.8) ;
- background-color: orangered;
+ background:linear-gradient(to bottom,#eee 0%, orangered 100%);
 
 .bibliografia{
 
@@ -21,17 +21,39 @@
  font-family: Helvetica;
  font-style: italic;
  font-weight: 900px;
- font-size: 20px;
+ font-size: 15px;
  padding: 10px;
  margin-left: 20px;
  color: black;
  text-shadow: 1px 1px 0px #ccc;
  text-transform: uppercase;
  text-align: left;
- margin-right: 20px;
+
 
 }
 
 }
 
+
+#social{
+display: flex;
+flex-direction: row;
+
 }
+ 
+.image__social{
+height: 5vh;
+width: 2vw;
+padding: 2rem;
+ 
+ &:hover{
+transform: scale(1.2,1.2);
+ }
+}
+ 
+ 
+}
+
+
+
+
