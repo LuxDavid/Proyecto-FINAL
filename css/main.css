@@ -31,11 +31,11 @@
 
 @keyframes tamaño {
   0% {
-    flex-basis: 12rem; }
+    height: 35vh; }
   50% {
-    flex-basis: 13rem; }
+    height: 36vh; }
   100% {
-    flex-basis: 12rem;
+    height: 35vh;
     border: 3px solid yellow; } }
     #principal .platillo h2 {
       font-size: 24px;
