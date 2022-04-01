@@ -1,6 +1,8 @@
 
 /*---------------------------------------FOOTER----------------------------*/
 
+
+
 #pie__pagina{
 
  display: grid;
@@ -55,6 +57,10 @@ transform: scale(1.2,1.2);
     height: 10vh;
     width: 90px;
     padding: 27px;
+
+    &:hover{
+        transform: scale(1.2,1.2);
+         }
 }
 }
 

@@ -207,6 +207,8 @@
     height: 10vh;
     width: 90px;
     padding: 27px; }
+    #pie__pagina .image__social--contacto:hover {
+      transform: scale(1.2, 1.2); }
 
 .carrusel-imagenes img {
   height: 70vh;
@@ -249,10 +251,17 @@
   margin-right: 20px; }
   .ilustracion img {
     width: 100%;
-    height: 197px; }
+    height: 200px;
+    border: 4px solid white; }
+    .ilustracion img:hover {
+      cursor: pointer;
+      border: 4px solid orangered; }
   .ilustracion .video {
     width: 100%;
-    height: 197px; }
+    height: 200px;
+    border: 4px solid white; }
+    .ilustracion .video:hover {
+      border: 4px solid orangered; }
 
 /*-------------------------------------------BLOG------------------------------------*/
 #restaurant {
@@ -305,8 +314,8 @@
 
 /*---------------------------------------ESTILOS GENERALES----------------------------*/
 * {
-  margin: 0;
-  padding: 0; }
+  margin: 0px;
+  padding: 0px; }
 
 body {
   background-color: #444;

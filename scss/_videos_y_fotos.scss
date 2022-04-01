@@ -1,6 +1,8 @@
 /*--------------------------------------VIDEOS Y FOTOS--------------------------------*/
 
-$altura-en-multimedia:197px;
+$altura-en-multimedia:200px;
+$borde-multimedia: 4px solid white;
+
 
 #multimedia{
 
@@ -17,11 +19,17 @@ $altura-en-multimedia:197px;
 
     margin-bottom: 25px;
     margin-right: 20px;
-
+    
 img{
 
     width: 100%;
     height: $altura-en-multimedia;
+    border: $borde-multimedia;
+
+    &:hover{
+    cursor: pointer;
+    border:4px solid orangered;
+    }
 
    }
 
@@ -30,6 +38,11 @@ img{
 
     width: 100%;
     height: $altura-en-multimedia;
+    border: $borde-multimedia;
+    
+&:hover{
+border:4px solid orangered;
+}
 
     }
 
