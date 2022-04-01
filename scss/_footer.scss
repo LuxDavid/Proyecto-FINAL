@@ -20,7 +20,7 @@
 
  font-family: Helvetica;
  font-style: italic;
- font-weight: 900px;
+ font-weight: bold;
  font-size: 15px;
  padding: 10px;
  margin-left: 20px;
@@ -38,11 +38,11 @@
 #social{
 display: flex;
 flex-direction: row;
-
+height: 10vh
 }
  
 .image__social{
-height: 5vh;
+height: 4vh;
 width: 2vw;
 padding: 2rem;
  
@@ -51,7 +51,11 @@ transform: scale(1.2,1.2);
  }
 }
  
- 
+.image__social--contacto{
+    height: 10vh;
+    width: 90px;
+    padding: 27px;
+}
 }
 
 

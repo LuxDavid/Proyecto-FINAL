@@ -4,7 +4,15 @@
 
     #header{
     grid-template-columns: 100%;
-    padding-bottom: 15px;
+   
+    }
+
+    #header .cabecera__header{
+    padding: 5px;
+    }
+
+    #header #menu .elementos__menu{
+    height: 92%;
     }
                 
     .cabecera__header .header__titulo{
@@ -135,6 +143,7 @@
     #pie__pagina .image__social{
     width: 4vw;
     }
+ 
 }
 /*--------------------------------------------------------------------------------------------- */
 @media(max-width:764px){
@@ -200,7 +209,10 @@
 text-align: center;
 }
 
-
+#pie__pagina .image__social--contacto{
+height: 8vh;
+padding: 27px;
+}
 }
 /*--------------------------------------------------------------------------------------------- */ 
     @media(max-width:546px){

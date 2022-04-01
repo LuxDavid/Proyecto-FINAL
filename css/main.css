@@ -185,7 +185,7 @@
     #pie__pagina .bibliografia .bibliografia__info {
       font-family: Helvetica;
       font-style: italic;
-      font-weight: 900px;
+      font-weight: bold;
       font-size: 15px;
       padding: 10px;
       margin-left: 20px;
@@ -195,16 +195,22 @@
       text-align: left; }
   #pie__pagina #social {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    height: 10vh; }
   #pie__pagina .image__social {
-    height: 5vh;
+    height: 4vh;
     width: 2vw;
     padding: 2rem; }
     #pie__pagina .image__social:hover {
       transform: scale(1.2, 1.2); }
+  #pie__pagina .image__social--contacto {
+    height: 10vh;
+    width: 90px;
+    padding: 27px; }
 
 .carrusel-imagenes img {
-  height: 70vh; }
+  height: 70vh;
+  padding-top: 2px; }
 
 .contacto-forms {
   background-color: #eee; }
