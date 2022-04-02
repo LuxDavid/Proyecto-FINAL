@@ -44,7 +44,15 @@
             
     #multimedia{
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 200px 200px;
+    
+    }
+
+    .ilustracion img{
+    height: 250px;
+    }
+
+    .ilustracion .video{
+    height: 250px;
     }
         
 }
@@ -158,7 +166,6 @@
     
     #multimedia {
     grid-template-columns: 60%;
-    grid-template-rows: 200px;
     flex-wrap: 25px;
     padding-top: 25px;
     }
