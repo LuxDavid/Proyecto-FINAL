@@ -5,43 +5,7 @@
     width: $anchura;
 }
 
-.ubicacion{
-
-    @include altoAncho(600px,100% );
-    display: block;
-    margin-left: 8%;
-
-    iframe{
-
-    @include altoAncho(98%,40% );
-    display:inline-block;
-    border-radius: 15px;
-
-    }
-
-    .establecimiento{
-        @include altoAncho(98%,40% );
-        display:inline-block;
-        border-radius: 15px;
-        margin-left: 25px; 
-
-        }
 
 
 
-}
-
-
-.info__local {
-    p{
-
-    color: #444;
-    @include altoAncho(100px,100% );
-    background-color: white;
-    font-size: 40px;
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
-    
-    }
-       
-    }
 

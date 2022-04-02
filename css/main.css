@@ -287,31 +287,6 @@
   text-indent: 5px; }
 
 /*-------------------------------------------UBICACION------------------------------------*/
-.ubicacion {
-  height: 600px;
-  width: 100%;
-  display: block;
-  margin-left: 8%; }
-  .ubicacion iframe {
-    height: 98%;
-    width: 40%;
-    display: inline-block;
-    border-radius: 15px; }
-  .ubicacion .establecimiento {
-    height: 98%;
-    width: 40%;
-    display: inline-block;
-    border-radius: 15px;
-    margin-left: 25px; }
-
-.info__local p {
-  color: #444;
-  height: 100px;
-  width: 100%;
-  background-color: white;
-  font-size: 40px;
-  font-family: Impact,'Arial Narrow Bold', sans-serif; }
-
 /*---------------------------------------ESTILOS GENERALES----------------------------*/
 * {
   margin: 0px;
