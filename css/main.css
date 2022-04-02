@@ -287,6 +287,17 @@
   text-indent: 5px; }
 
 /*-------------------------------------------UBICACION------------------------------------*/
+.container__ubicacion {
+  padding-top: 15px; }
+  .container__ubicacion .card-body {
+    background-color: black; }
+  .container__ubicacion .card-body {
+    text-align: center; }
+    .container__ubicacion .card-body .info__local {
+      color: orangered; }
+    .container__ubicacion .card-body .card-title {
+      color: white; }
+
 /*---------------------------------------ESTILOS GENERALES----------------------------*/
 * {
   margin: 0px;
