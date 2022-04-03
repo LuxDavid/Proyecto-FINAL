@@ -1,7 +1,7 @@
 $borde-g:#393d3f;
 $sombra-box:rgba(0,0,0,0.3);
 $color-combinable:#ccc;
-
+$naranja-blanco:linear-gradient(to bottom,#eee 0%, orangered 100%);
 /*---------------------------------------BARRA LATERAL----------------------------*/
 
 #lateral {
@@ -20,7 +20,7 @@ $color-combinable:#ccc;
 
  width: auto;
  height:3rem;
- background-color: $color-combinable;
+ background: $naranja-blanco;
  box-shadow: 0px 1px 0px #393d3f,1px 2px 0px $borde-g,2px 3px 0px $borde-g, 3px 4px 0px $borde-g;
  font-size: 25px;
  font-family: 'Bebas Neue';
@@ -156,7 +156,7 @@ input[type="submit"]{
  height:35px;
  margin-top: 20px;
  color: white;
- background:linear-gradient(to bottom,#eee 0%, orangered 100%);
+ background:$naranja-blanco;
  border:1px solid orangered;
  border-radius: 0px;
  cursor:pointer;
