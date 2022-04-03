@@ -255,18 +255,18 @@
     border: 4px solid white; }
     .ilustracion img:hover {
       cursor: pointer;
-      border: 4px solid red; }
+      border: 4px solid #444; }
   .ilustracion .video {
     width: 100%;
     height: 200px;
     border: 4px solid white; }
     .ilustracion .video:hover {
-      border: 4px solid orangered; }
+      border: 4px solid #444; }
 
 /*-------------------------------------------BLOG------------------------------------*/
 #restaurant {
   display: flex;
-  width: 90%;
+  width: 100%;
   height: 800px; }
   #restaurant .imagen_creador {
     display: flex;
