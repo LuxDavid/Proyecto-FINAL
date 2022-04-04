@@ -2,9 +2,9 @@
 
 .carrusel-imagenes{
 
-    img{
-    height: 70vh;
-    padding-top: 2px;
+img{
+  height: 70vh;
+  padding-top: 2px;
 
 }
 
@@ -12,27 +12,27 @@
 
 .contacto-forms{
 
-    background-color: black;
+  background-color: black;
 
 }
 
 .form-label{
 
-    color: orangered;
-    padding-left: 40%;
+  color: orangered;
+  padding-left: 40%;
 
 }
 
 .boton-animation:hover{
 
-    animation-name: envio;
-    animation-duration: 2s;
-    animation-timing-function: linear
+  animation-name: envio;
+  animation-duration: 2s;
+  animation-timing-function: linear
 
 }
 
 @keyframes envio {
 
-    0%{border-radius: 15px;}50%{background-color: black;}75%{border-radius: 25px; background-color: red;}100%{background-color: red;}
+  0%{border-radius: 15px;}50%{background-color: black;}75%{border-radius: 25px; background-color: red;}100%{background-color: red;}
     
 }

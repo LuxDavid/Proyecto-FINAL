@@ -129,7 +129,7 @@
     }
 
     #lateral #login a{
-        margin-left: 3rem;
+    margin-left: 3rem;
     }
     
     #restaurant .objetivos p{
@@ -180,19 +180,19 @@
     }
 
     #restaurant .objetivos p {
-        font-size: 15px;
-      }
+    font-size: 15px;
+    }
 
-      #restaurant .creador {
-        width: 12vw;
-      }
+    #restaurant .creador {
+    width: 12vw;
+    }
  
 }
 /*--------------------------------------------------------------------------------------------- */
 @media(max-width:764px){
 
     #principal .platillo h2 {
-        font-size: 22px;
+    font-size: 22px;
     }
 
     #principal .contenido_principal{
@@ -210,12 +210,12 @@
     }
 
     #lateral #login a{
-        margin-left: 2rem;
+    margin-left: 2rem;
     }
 
     #pie__pagina .bibliografia .bibliografia__info {
-        font-size: 12px;
-      }
+    font-size: 12px;
+    }
 
     
 
@@ -223,22 +223,24 @@
 /*--------------------------------------------------------------------------------------------- */
     @media(max-width:722px){
 
-        #principal .platillo .images__platillos {
-        width: 97%;
-        }
+    #principal .platillo .images__platillos {
+    width: 97%;
+    }
 
-        #principal .contenido_principal {
-        margin-left: 70px;
-        }
+    #principal .contenido_principal {
+    margin-left: 70px;
+    }
         
-        #restaurant .creador {
-            width: 15vw;
-          }
+    #restaurant .creador {
+    width: 15vw;
+    }
 
 }
 /*--------------------------------------------------------------------------------------------- */
 @media(max-width:691px){
-    #pie__pagina{  grid-template-columns: 1fr;
+
+  #pie__pagina{  
+  grid-template-columns: 1fr;
 
   }
 
@@ -248,27 +250,27 @@
 
   #pie__pagina #social {
     justify-content: center;
-}
+  }
 
-#pie__pagina .bibliografia .bibliografia__info{
-text-align: center;
-}
+  #pie__pagina .bibliografia .bibliografia__info{
+  text-align: center;
+  }
 
-#pie__pagina .image__social--contacto{
-height: 8vh;
-padding: 27px;
-}
+  #pie__pagina .image__social--contacto{
+  height: 8vh;
+  padding: 27px;
+  }
 }
 /*--------------------------------------------------------------------------------------------- */ 
-    @media(max-width:546px){
+@media(max-width:546px){
     
-    #menu .elementos__menu{
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    }
+  #menu .elementos__menu{
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  }
     
-    #menu .menu__item {
-    font-size: 10px;
-    }
+  #menu .menu__item {
+  font-size: 10px;
+  }
     
     
     

@@ -7,7 +7,6 @@
 @import "_ubicacion";
 
 
-/*---------------------------------------ESTILOS GENERALES----------------------------*/
 
 *{
 
@@ -36,7 +35,7 @@ body{
 }
 
 
-/*---------------------------------------CABECERA----------------------------*/
+
 #header{
 
   display: grid;
@@ -83,7 +82,7 @@ body{
 
 }
 
-/*---------------------------------------BARRA DE NAVEGACION----------------------------*/
+
 
 #menu{
 
@@ -122,10 +121,10 @@ img{
 
 $redes: ( 
 
- contacto: rgb(224, 47, 47),
- ubicacion:  rgb(148, 16, 16),
- multimedia: rgb(141, 16, 16),
- blog: rgb(180, 6, 6)
+  contacto: rgb(224, 47, 47),
+  ubicacion:  rgb(148, 16, 16),
+  multimedia: rgb(141, 16, 16),
+  blog: rgb(180, 6, 6)
 );
 
 .menu__link--contacto:hover{
