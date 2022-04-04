@@ -40,7 +40,7 @@ text-align: center;
 }
 
 p{
-  @include estiloLetra(italic,bold,25px);
+  @include estiloLetra(italic,bold,23px);
   color: white;
   width: 95%;
   padding: 15px;
@@ -57,7 +57,7 @@ margin-top: 20px;
 margin-left: 1vw;
 justify-content: space-between;
 p{
-  @include estiloLetra(italic,bold,25px);
+  @include estiloLetra(italic,bold,23px);
   color: white;
 }
 
