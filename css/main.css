@@ -265,19 +265,52 @@
 
 /*-------------------------------------------BLOG------------------------------------*/
 #restaurant {
-  display: flex;
   width: 100%;
   height: 800px; }
   #restaurant .imagen_creador {
     display: flex;
-    height: 15vh;
+    height: 12vh;
     width: 100%;
     justify-content: center; }
   #restaurant .creador {
     padding: 5px 0px 5px 5px;
-    border-radius: 20px;
     height: 10vh;
     width: 6vw; }
+  #restaurant .contenido__blog {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-top: 1vh; }
+    #restaurant .contenido__blog h2 {
+      text-align: center;
+      font-style: italic;
+      font-weight: 900px;
+      font-size: 35px; }
+    #restaurant .contenido__blog p {
+      font-style: italic;
+      font-weight: bold;
+      font-size: 25px;
+      color: white;
+      width: 95%;
+      padding: 15px;
+      padding-left: 2vw; }
+  #restaurant .objetivos {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 1vw;
+    justify-content: space-between; }
+    #restaurant .objetivos p {
+      font-style: italic;
+      font-weight: bold;
+      font-size: 25px;
+      color: white; }
+    #restaurant .objetivos h2 {
+      text-align: center;
+      font-style: italic;
+      font-weight: 900px;
+      font-size: 35px; }
 
 /*-------------------------------------------UBICACION------------------------------------*/
 .container__ubicacion {
